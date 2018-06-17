@@ -13,10 +13,10 @@ function checkPassword() {
 	//password = 72BSA!
 
 	if (first.match('7') && second.match('2') && third.match('B') && fourth.match('S') && fifth.match('A') && sixth.match('!')) {
-		window.location.href = "/index2.html";
+		alert("Success");
+		alert("Loading contents...");
 	}
 	else {
 		alert("Incorrect passcode.");
-		return false;
 	}
 }
