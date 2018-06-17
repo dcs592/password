@@ -17,5 +17,6 @@ function checkPassword() {
 	}
 	else {
 		alert("Incorrect passcode.");
+		return false;
 	}
 }
