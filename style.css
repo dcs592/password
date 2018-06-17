@@ -1,0 +1,28 @@
+body {
+	background-color: #222222;
+}
+
+#pageBody {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	text-align: center;
+	width: 50%;
+	font-size: xx-large;
+	color: yellow;
+}
+
+form#ios input[type=text]{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 1em;
+    border: 1px solid #000;
+
+} 
+
+form#ios input[type=submit]{
+    width: 100px;
+    margin-top: 30px;
+    font-size: 1em;
+} 
